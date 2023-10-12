@@ -45,3 +45,6 @@ This project was created as part of a software development course and serves as 
 
 ---
 
+![Logo de la UPB](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AEscudo_UPB.svg&psig=AOvVaw3rGHUoUZOkOfuo1WojpTru&ust=1697163931167000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODp87u674EDFQAAAAAdAAAAABAk)
+---
+
