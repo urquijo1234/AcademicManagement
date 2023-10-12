@@ -1,60 +1,48 @@
-# Sistema de Gestión Académica
+# Student Support System
 
-## Descripción
+The Student Support System is a software application developed for a company that aims to provide support to students with difficulties in Systems Analysis and Design, programming paradigms, programming logic, and basic mathematics. This system allows for the efficient management and control of student and teacher data, the organization of training groups, and the recording of payments for courses and sessions.
 
-Este proyecto consiste en un sistema de gestión académica desarrollado en NetBeans para una empresa dedicada a brindar apoyo a estudiantes con dificultades en los siguientes campos:
+## Features
 
-- Análisis y Diseño de Sistemas.
-- Paradigmas de Programación.
-- Lógica de Programación.
-- Matemática Básica.
+- **Student Data Management:** The system can handle basic student data, including name, surname, document number, place of residence, email, telephone number, date of birth, university, and the number of subjects taken in different semesters.
 
-El software permitirá la gestión y control de datos esenciales de estudiantes y docentes, así como la administración de grupos y pagos correspondientes a los cursos y sesiones de capacitación.
+- **Teacher Information:** It manages information about teachers, including their name, document number, last name, city of residence, email, profession, year of starting at the university, and year of completion of their teaching work.
 
-## Funcionalidades
+- **Group Creation:** The system allows for the creation of four groups, each corresponding to specific subjects for training. Teachers can be assigned to groups based on their specialty.
 
-### Datos de Estudiantes
+- **Student and Teacher Assignment:** Students and teachers can be assigned to these groups. The system keeps a record of joining and departure dates.
 
-- Nombre
-- Apellido
-- Número de Documento
-- Lugar de Residencia
-- Correo Electrónico
-- Número de Teléfono
-- Fecha de Nacimiento
-- Universidad
-- Materias cursadas en los primeros, segundos y terceros semestres
-- Registro de pagos correspondientes
+- **Payment Records:** The software allows for the registration of payments corresponding to courses and sessions. It tracks the payment history of each student.
 
-### Datos de Docentes
+## Technologies Used
 
-- Nombre
-- Apellido
-- Número de Documento
-- Ciudad de Residencia
-- Correo
-- Profesión
-- Año de inicio en la universidad
-- Año de finalización de la labor docente
+- Java: The software is developed using Java, making it platform-independent and suitable for use in various environments.
 
-### Grupos
+- NetBeans: The codebase is designed to work with the NetBeans integrated development environment (IDE).
 
-- Creación de cuatro grupos correspondientes a las materias de capacitación.
-- Asignación de docentes a los grupos según su especialidad.
-- Gestión de la ubicación y vinculación de estudiantes a los grupos.
-- Registro de fechas de vinculación y salida de estudiantes y docentes.
+- File-Based Storage: Data is stored in text files, providing a simple way to manage student and group information.
 
-## Tecnologías Utilizadas
+## Getting Started
 
-- Java
-- NetBeans
-- Git (para control de versiones)
-- ...
+To use the Student Support System, you need to clone this repository and import it into NetBeans. Follow these steps:
 
-## Uso del Proyecto
+1. Clone the repository to your local machine using Git.
+2. Open NetBeans and go to "File" > "Open Project..."
+3. Navigate to the cloned repository and select the project.
+4. Run the project to start the application.
 
-1. Clona este repositorio en tu entorno de desarrollo NetBeans:
+## Usage
 
-   ```bash
-   git clone https://github.com/tu-usuario/nombre-de-repositorio.git
+Once the application is running, you can use the provided menu to input student and teacher data, create groups, view group assignments, and manage payments.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use and modify the code as needed.
+
+## Acknowledgments
+
+This project was created as part of a software development course and serves as a basic example of data management and organization. Feel free to expand on it and add more features as needed.
+
+---
+
+**Note:** This README is a basic template, and you should modify it according to your project's specific requirements and features.
