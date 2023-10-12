@@ -45,4 +45,3 @@ This project was created as part of a software development course and serves as 
 
 ---
 
-**Note:** This README is a basic template, and you should modify it according to your project's specific requirements and features.
